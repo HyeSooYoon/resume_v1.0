@@ -4,20 +4,25 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class HomeController {
+public class HomeController {  
+    @GetMapping("/index")
+    public String index() {
+        return "forward:/index.html";
+    } 
 
-    @GetMapping("/")
-    public String index() { 
+    @GetMapping("/about")
+    public String about() {
+        return "forward:/about/index.html";
+    } 
 
-        System.out.println("dddddddddddddddddddddddddddddddddddddddddddddddddddddddddsfsdf");
-        return "index";
+    @GetMapping("/category")
+    public String category() {
+        return "forward:/category/index.html";
+    
+
+
     }
+
 
     
-    @GetMapping("/index")
-    public String index2() { 
-
-        System.out.println("dddddddddddddddddddddddddddddddddddddddddddddddddddddddddsfsdf");
-        return "index";
-    }
 }
