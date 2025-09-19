@@ -84,7 +84,7 @@ The post page:
 
 The category page:
 
-![Category](./assets/images/category-screenshot.png)
+![Category](./assets/images/project-screenshot.png)
 
 The home page in mobile version:
 
@@ -100,6 +100,6 @@ If you would like to make Jekyll Paper better, you can create a new pull request
 
 If you have any questions or suggestions, you can create an issue on [Jekyll Paper Issues][jekyll-paper-issues].
 
-[jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
-[jekyll-paper-github]: https://github.com/ghosind/Jekyll-Paper-Github
-[jekyll-paper-issues]: https://github.com/ghosind/Jekyll-Paper/issues
+[jekyll-paper]: https://github.com/HyeSooYoon
+[jekyll-paper-github]: https://github.com/HyeSooYoon-Github
+[jekyll-paper-issues]: https://github.com/HyeSooYoon/issues
